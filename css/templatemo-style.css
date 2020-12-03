@@ -132,9 +132,10 @@ p {
 }
 
 #experience .experience-thumb,
-#education .education-thumb  {
+#education .education-thumb {
   padding: 22px 42px 42px 42px;
 }
+  
 
 #service,
 #projects,
@@ -165,9 +166,12 @@ footer {
   margin: auto;
   text-align: justify;
 }
-
+.space{
+  margin-top: 1em ;
+  margin-bottom: 1em ;
+}
 .color-white {
-  color: #ffffff;
+  color: #f5f3f3;
 }
   
 
@@ -495,6 +499,11 @@ a:hover, a:active, a:focus {
 }
 
 #education small {
+  color: #072122;
+  font-weight: bold;
+}
+#education small1 {
+  font-size:28px;
   color: #072122;
   font-weight: bold;
 }
