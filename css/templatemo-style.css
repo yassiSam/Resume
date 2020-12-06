@@ -131,6 +131,12 @@ p {
   margin: 0;
 }
 
+#contact .container {
+  width:100%;
+  padding: 0;
+  margin: 0;
+}
+
 #experience .experience-thumb,
 #education .education-thumb {
   padding: 22px 42px 42px 42px;
@@ -165,6 +171,9 @@ footer {
   padding: 70px;
   margin: auto;
   text-align: justify;
+}
+.textCenter{
+  padding: 50px;
 }
 .space{
   margin-top: 1em ;
@@ -574,7 +583,7 @@ a:hover, a:active, a:focus {
 #contact .form-control {
   background: transparent;
   border: none;
-  border-bottom: 1px solid #E3AE57;
+  border-bottom: 1px solid #7fcfe7;
   border-radius: 0px;
   box-shadow: none;
   color: #ffffff;
